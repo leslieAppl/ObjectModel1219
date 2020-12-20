@@ -13,6 +13,7 @@
 		CEE2CD65258DEFEF00CAA45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CD63258DEFEF00CAA45D /* Main.storyboard */; };
 		CEE2CD67258DEFF400CAA45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CD66258DEFF400CAA45D /* Assets.xcassets */; };
 		CEE2CD6A258DEFF400CAA45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CD68258DEFF400CAA45D /* LaunchScreen.storyboard */; };
+		CEE2CD74258DF03100CAA45D /* IBMessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CD73258DF03100CAA45D /* IBMessageBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEE2CD66258DEFF400CAA45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE2CD69258DEFF400CAA45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE2CD6B258DEFF400CAA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE2CD73258DF03100CAA45D /* IBMessageBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBMessageBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CEE2CD5D258DEFEF00CAA45D /* AppDelegate.swift */,
 				CEE2CD5F258DEFEF00CAA45D /* SceneDelegate.swift */,
 				CEE2CD61258DEFEF00CAA45D /* ViewController.swift */,
+				CEE2CD73258DF03100CAA45D /* IBMessageBox.swift */,
 				CEE2CD63258DEFEF00CAA45D /* Main.storyboard */,
 				CEE2CD66258DEFF400CAA45D /* Assets.xcassets */,
 				CEE2CD68258DEFF400CAA45D /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				CEE2CD62258DEFEF00CAA45D /* ViewController.swift in Sources */,
 				CEE2CD5E258DEFEF00CAA45D /* AppDelegate.swift in Sources */,
+				CEE2CD74258DF03100CAA45D /* IBMessageBox.swift in Sources */,
 				CEE2CD60258DEFEF00CAA45D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY29GF949;
 				INFOPLIST_FILE = ObjectModel1219/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.appl.leslie.ObjectModel1219;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDY29GF949;
 				INFOPLIST_FILE = ObjectModel1219/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.appl.leslie.ObjectModel1219;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
